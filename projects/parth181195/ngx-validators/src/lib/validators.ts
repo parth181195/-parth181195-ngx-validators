@@ -1,0 +1,43 @@
+import {arrayLengthGraterThen} from './validators/array-length.validator';
+import {Base64} from './validators/base-64.validator';
+import {creditCard} from './validators/credit-card.validator';
+import {creditCardMonth} from './validators/credit-cart-month.validator';
+import {isoDate} from './validators/iso-date.validator';
+import {date} from './validators/date.validator';
+import {phone} from './validators/phone-validator';
+import {digit} from './validators/digit.validator';
+import {email} from './validators/email.validators';
+import {isEqualTo} from './validators/is-equal-to.validator';
+import {isEqual} from './validators/equal.validators';
+import {isNotEqual} from './validators/not-equal-validator';
+import {isNotEqualTo} from './validators/is-not-equal-to.validator';
+import {graterThen, equalToGraterThen} from './validators/grater-then.validator';
+import {lessThen, equalToLessThen} from './validators/less-then.validator';
+import {maxDate} from './validators/max-date.validators';
+import {minDate} from './validators/min-date.validator';
+import {isNumber} from './validators/number.validator';
+import {url} from './validators/url.validator';
+
+export class CustomValidators {
+  public static arrayLengthGraterThen = arrayLengthGraterThen;
+  public static base64 = Base64;
+  public static creditCard = creditCard;
+  public static creditCardMonth = creditCardMonth;
+  public static isoDate = isoDate;
+  public static date = date;
+  public static phone = phone;
+  public static digit = digit;
+  public static email = email;
+  public static isEqualTo = isEqualTo;
+  public static isEqual = isEqual;
+  public static isNotEqual = isNotEqual;
+  public static isNotEqualTo = isNotEqualTo;
+  public static graterThen = graterThen;
+  public static equalToGraterThen = equalToGraterThen;
+  public static lessThen = lessThen;
+  public static equalToLessThen = equalToLessThen;
+  public static maxDate = maxDate;
+  public static minDate = minDate;
+  public static isNumber = isNumber;
+  public static url = url;
+}

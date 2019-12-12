@@ -1,0 +1,27 @@
+{
+  "name": "@parth181195/ngx-validators",
+  "version": "0.0.1",
+  "author": "Parth Jansari",
+  "homepage": "https://github.com/parth181195/ngx-validators",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parth181195/ngx-validators.git"
+  },
+  "keywords": [
+    "angular",
+    "regexp",
+    "validator",
+    "input",
+    "ngx",
+    "custom"
+  ],
+  "bugs": "https://github.com/parth181195/ngx-validators/issues",
+  "license": "MIT",
+  "readme": "./readme.md",
+  "description": "set of useful validators that can be used with angular reactive forms",
+  "peerDependencies": {
+    "@angular/common": "^9.0.0-rc.5",
+    "@angular/core": "^9.0.0-rc.5",
+    "tslib": "^1.10.0"
+  }
+}

@@ -1,0 +1,7 @@
+<input type="text" [formControl]='ctrl'><br>
+<input type="text" [formControl]='ctrl2'><br>
+<hr>
+val: {{ctrl.value}}<br>
+valid: {{ctrl.valid}}<br>
+err: {{ctrl.errors | json}}<br>
+<router-outlet></router-outlet>
